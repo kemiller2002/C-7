@@ -1,0 +1,16 @@
+C:\Repos\Presentations\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.exe.config
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.exe.config
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.exe
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.pdb
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.ValueTuple.dll
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\obj\Debug\OverviewCode.exe
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\obj\Debug\OverviewCode.pdb
+K:\Presentations\C# 7 Overview\OverviewCode\OverviewCode\obj\Debug\OverviewCode.csprojResolveAssemblyReference.cache
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\obj\Debug\OverviewCode.exe
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\obj\Debug\OverviewCode.pdb
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.exe.config
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.exe
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\OverviewCode.pdb
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.ValueTuple.dll
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.dll
+W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.xml
