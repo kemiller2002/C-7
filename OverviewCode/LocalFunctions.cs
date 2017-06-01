@@ -19,7 +19,8 @@ namespace OverviewCode
             try
             {
                 
-                IEnumerable<string> beatlesNames = GetBeatlesNamesWithEnumerator(5);
+                IEnumerable<string> beatlesNames = 
+                    GetBeatlesNamesWithEnumerator(5);
 
                 var firstBeatle = beatlesNames.First();
             }

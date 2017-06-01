@@ -12,7 +12,17 @@ namespace OverviewCode
         {
             var colorString = "red,green,blue".Split(',');
 
-            var myGirlFriendsName = "Jenny" ?? throw new Exception();
+            //show old ways
+            //if exception 
+
+
+            //func exception 
+
+
+            //new way with ??
+
+
+            
         }
 
         public string MyFunction ()

@@ -14,16 +14,21 @@ namespace OverviewCode
     {
         public void ExecuteExample ()
         {
+            //name and phone number 
+
+            //show old Tuple
+
+            //show new Tuple
+
+            //compare two different tuples
+
+            //show function returning tuples
+
+            //named properties
 
         }
 
-        public ref string GetVtRef(ref string nameAndNumber)
-        {
-//            var nameAndNumber = "string"; //("jenny", "867-5309");
-
-            return ref nameAndNumber; 
-
-        }
+       
 
 
     }

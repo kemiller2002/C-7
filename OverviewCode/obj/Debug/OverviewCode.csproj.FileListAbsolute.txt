@@ -14,3 +14,12 @@ W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\Overvi
 W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.ValueTuple.dll
 W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.dll
 W:\GitHub\Presentations\C# 7 Overview\OverviewCode\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.xml
+W:\GitHub\C-7\OverviewCode\bin\Debug\OverviewCode.exe.config
+W:\GitHub\C-7\OverviewCode\bin\Debug\OverviewCode.exe
+W:\GitHub\C-7\OverviewCode\bin\Debug\OverviewCode.pdb
+W:\GitHub\C-7\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.dll
+W:\GitHub\C-7\OverviewCode\bin\Debug\System.ValueTuple.dll
+W:\GitHub\C-7\OverviewCode\bin\Debug\System.Threading.Tasks.Extensions.xml
+W:\GitHub\C-7\OverviewCode\obj\Debug\OverviewCode.csprojResolveAssemblyReference.cache
+W:\GitHub\C-7\OverviewCode\obj\Debug\OverviewCode.exe
+W:\GitHub\C-7\OverviewCode\obj\Debug\OverviewCode.pdb

@@ -24,7 +24,8 @@ namespace OverviewCode
                 PhoneNumber = "867-5309"
             };
 
-            ref var nameLocation = ref GetNameLocation(ref jennyPhoneNumber);
+            ref var nameLocation = 
+                ref GetNameLocation(ref jennyPhoneNumber);
 
             Capitalize(ref nameLocation);
 
@@ -43,12 +44,26 @@ namespace OverviewCode
             return ref nameAndPhoneNumber.Name;
         }
 
-        void Capitalize(ref string word) => word = word[0].ToString().ToUpper() + String.Join("", word.Skip(1));
+        void Capitalize(ref string word) => word = 
+            word[0].ToString().ToUpper() + String.Join("", word.Skip(1));
 
     }*/
+
+            /*
+        public static ref char GetLocationOfFirstChar(char[] arr)
+            => ref arr[0];
+
+
         public void ExecuteExample()
         {
-            throw new NotImplementedException();
+            var jennysName = new[] { 'J', 'e', 'n', 'n', 'y' };
+
+            ref char firstLetter = ref GetLocationOfFirstChar(jennysName);
+
+            firstLetter = 'L';
+
+            Console.WriteLine(jennysName);
         }
+        */
     }
 }

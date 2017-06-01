@@ -9,16 +9,21 @@ namespace OverviewCode
     class ExpressionBodiedMembers
     {
 
-        public ExpressionBodiedMembers () => Console.WriteLine("I am the constructor");
+        //show C# 6; 
 
-        ~ExpressionBodiedMembers () => Console.WriteLine("I am the finalizer");
+        //show constructor;
 
+        //show finalizer; 
 
-        static void PrintName(string name) =>  Console.WriteLine(name);
+        //show getters / setters;
 
-        static void PrintNameWithNormalFunction(string name)
+        string _jennysPhoneNumber;
+        public string JennysPhoneNumber
         {
-            Console.WriteLine(name);
+            get => _jennysPhoneNumber;
+
+            set => _jennysPhoneNumber = value;
+
         }
     }
 }

@@ -19,6 +19,8 @@ namespace OverviewCode.Complete
 
         public void ExecuteExample()
         {
+
+            /*
             var jennyPhoneNumber = new NameAndPhoneNumber
             {
                 Name = "jenny",
@@ -30,6 +32,15 @@ namespace OverviewCode.Complete
             Capitalize(ref nameLocation);
 
             Console.WriteLine(jennyPhoneNumber.Name);
+            */
+
+            var jennysName = new[] { 'J', 'e', 'n', 'n', 'y' };
+
+            ref char firstLetter = ref GetLocationOfFirstChar(jennysName);
+
+            firstLetter = 'L';
+
+            Console.Write(jennysName);
         }
 
 
@@ -38,11 +49,18 @@ namespace OverviewCode.Complete
             return ref nameAndPhoneNumber.Name;
         }
 
-        void Capitalize(ref string word) => word = word[0].ToString().ToUpper() + String.Join("", word.Skip(1));
+        void Capitalize(ref string word) => word = 
+            word[0].ToString().ToUpper() + String.Join("", word.Skip(1));
 
 
-        //public static ref char GetLocationOfFirstChar (string name) => ref name[0];
+        public static ref char GetLocationOfFirstChar(char[] arr)
+                => ref arr[0];
 
+        /*
 
+            public static ref char GetLocationOfFirstChar 
+                (string name) => ref name[0];
+
+        */
     }
 }

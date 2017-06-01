@@ -13,44 +13,36 @@ namespace OverviewCode
 
         public void ExecuteExample()
         {
-            object jennysNumber = null; //"867-5309"; 
 
-            if(jennysNumber is null )
-            {
-                Console.WriteLine("I am Null!");
-            }
+            //talk about is. 
 
+
+            var numberOfTimesIUsedJennysNumber = 8675309;
             
-            switch (jennysNumber)
+            switch (numberOfTimesIUsedJennysNumber)
             {
 
-                case int i when (i == 42):
-                    Console.Write("found i");
-                    break;
-                case string s when (s == "867-5309"):
-                    Console.WriteLine("Jenny's number!");
+                case int noTimes when (
+                    numberOfTimesIUsedJennysNumber > 1
+                    && numberOfTimesIUsedJennysNumber < 10
+                    ):
+                    Console.WriteLine("No more than 10 times");
+                break;
+
+                case int noTimes when (
+                        numberOfTimesIUsedJennysNumber >= 10
+
+                        && numberOfTimesIUsedJennysNumber <= 100
+                    ):
+                    Console.WriteLine("No more than 100 times");
                     break;
 
-                case Object s when (s is null):
-                    Console.WriteLine("Is Null?");
+                default:
+                    Console.WriteLine("None at all?");
                     break;
-                
-                    
-               // case string s:
-                //    Console.Write("yes it's a string");
-               //     break;
-
-                //case null:
-                //    Console.WriteLine("Just null!");
-                //    break;
-               
-                //default:
-                //    Console.WriteLine("Default!");
-                //    break;
 
             }
-            
-
+           
 
         }
     }
