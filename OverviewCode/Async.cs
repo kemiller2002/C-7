@@ -9,14 +9,26 @@ namespace OverviewCode
     class Async
     {
 
-       async Task<string> AsyncExample()
+        async void DoANonReturningThing()
         {
-            Task.Delay(10000);
+        }
 
+        async Task AsyncJustTask()
+        {
+            var  t =  new Task(Console.WriteLine);
+
+            return; 
+        }
+        async Task<string> AsyncExample()
+        {
             return "this is a test";
         }
 
 
+        async ValueTask<int> NewValueTaskExample ()
+        {
+            return 42;
+        }
 
 
 
