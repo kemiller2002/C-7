@@ -12,7 +12,7 @@ namespace OverviewCode
         {
             Console.WriteLine("Starting");
 
-            var example = new Ref();
+            var example = new PatternMatching();
 
             Execute(example);
 

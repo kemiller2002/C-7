@@ -8,16 +8,8 @@ namespace OverviewCode
 {
     class PatternMatching : IExample
     {
-
-        const string jPHone = "867";
-
-        public void ExecuteExample()
+        public void NumberOfTimesExample ()
         {
-
-            //talk about is. 
-
-
-            /*
             var numberOfTimesIUsedJennysNumber = 8675309;
             
             switch (numberOfTimesIUsedJennysNumber)
@@ -46,15 +38,24 @@ namespace OverviewCode
                     Console.WriteLine("None at all?");
                     break;
 
-            }*/
+            }
 
 
-            string jennysNumber = null;
+        }
+
+        public void TypeExampleQuirks ()
+        {
+            string jennysNumber = "string";
 
 
             if (jennysNumber is null)
             {
                 Console.WriteLine("I am null!");
+            }
+
+            if (jennysNumber is string)
+            {
+                Console.WriteLine("The type is string.");
             }
 
             switch (jennysNumber)
@@ -69,7 +70,7 @@ namespace OverviewCode
                     break;
 
                 case string s:
-                    Console.Write("yes it's a string");
+                    Console.WriteLine("Yes it's a string");
                     break;
 
                 case null:
@@ -82,9 +83,30 @@ namespace OverviewCode
 
             }
 
+        }
+
+        public void IsExample ()
+        {
+            var jennysNumber = "867-5309";
 
 
+            Console.WriteLine(
+                "Is it an int? " + (jennysNumber is int));
 
+            Console.WriteLine(
+                "Is this Jenny's number? " + 
+                    (jennysNumber is "867-5309"));
+
+            Console.WriteLine(
+                "Is it null? " + 
+                    (jennysNumber is null));
+        }
+
+        public void ExecuteExample()
+        {
+            IsExample();
+            //NumberOfTimesExample();
+            //TypeExampleQuirks();
 
         }
     }

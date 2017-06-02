@@ -49,21 +49,25 @@ namespace OverviewCode
 
     }*/
 
-            /*
-        public static ref char GetLocationOfFirstChar(char[] arr)
-            => ref arr[0];
+        /*
+    public static ref char GetLocationOfFirstChar(char[] arr)
+        => ref arr[0];
 
 
+    public void ExecuteExample()
+    {
+        var jennysName = new[] { 'J', 'e', 'n', 'n', 'y' };
+
+        ref char firstLetter = ref GetLocationOfFirstChar(jennysName);
+
+        firstLetter = 'L';
+
+        Console.WriteLine(jennysName);
+    }
+    */
         public void ExecuteExample()
         {
-            var jennysName = new[] { 'J', 'e', 'n', 'n', 'y' };
-
-            ref char firstLetter = ref GetLocationOfFirstChar(jennysName);
-
-            firstLetter = 'L';
-
-            Console.WriteLine(jennysName);
+            throw new NotImplementedException();
         }
-        */
     }
 }

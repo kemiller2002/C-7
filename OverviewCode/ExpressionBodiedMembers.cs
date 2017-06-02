@@ -17,13 +17,6 @@ namespace OverviewCode
 
         //show getters / setters;
 
-        string _jennysPhoneNumber;
-        public string JennysPhoneNumber
-        {
-            get => _jennysPhoneNumber;
-
-            set => _jennysPhoneNumber = value;
-
-        }
+        
     }
 }
